@@ -1,13 +1,20 @@
 html {
-
   --color-layout-body: #24293d;
   --color-layout-primary: rgba(0, 0, 0, .3);
+  --color-layout-secondary: rgba(0, 0, 0, .5);
   --color-layout-footer: #141722;
 
   --color-black: #000;
   --color-white: #fff;
 
-  --color-corner-1: #169afc;
+  --color-subtitle: #c2c2c2;
+
+  --color-1: #169afc;
+  --color-2: #f21440;
+  --color-3: #ff5efd;
+  --color-4: #ff8629;
+
+  --color-text-primary: #fff;
 
   --color-hover: rgba(0, 0, 0, .8);
 
@@ -26,6 +33,7 @@ body {
 }
 
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -34,4 +42,55 @@ img {
   max-width: $screen-desktop;
   margin-right: auto;
   margin-left: auto;
+}
+
+.Title {
+  position: relative;
+  display: block;
+  font-weight: 900;
+  text-decoration: none;
+  color: var(--color-white);
+
+  &--underline {
+
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 90px;
+      height: 1px;
+      background: var(--color-text-primary);
+    }
+  }
+
+  &--h2 {
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+  &--h2.Title--underline {
+    padding-bottom: 15px;
+
+    &:before {
+      width: 180px;
+    }
+  }
+
+  &--h3 {
+    font-size: 20px;
+  }
+
+  &--h3.Title--underline {
+    padding-bottom: 10px;
+
+    &:before {
+      width: 90px;
+    }
+  }
+}
+
+.Lead {
+  font-size: 14px;
+  color: var(--color-subtitle)
 }

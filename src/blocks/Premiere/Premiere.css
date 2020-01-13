@@ -1,0 +1,43 @@
+.Premiere {
+  padding: 60px 0;
+
+  &-Content {
+    display: flex;
+  }
+
+  &-Calendar {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  &-Arr {
+    width: 60px;
+    height: 60px;
+    background: var(--color-layout-secondary);
+    cursor: pointer;
+  }
+
+  &-Prev {
+    margin-right: 60px;
+  }
+
+  &-Next {
+    margin-left: 60px;
+  }
+
+  &-Month {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--color-text-primary);
+    letter-spacing: 5px;
+  }
+
+  &-News {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 60px;
+    grid-row-gap: 30px;
+  }
+}

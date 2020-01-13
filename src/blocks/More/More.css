@@ -1,0 +1,66 @@
+.More {
+  position: relative;
+  display: block;
+  margin-left: 20px;
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--color-text-primary);
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    bottom: -3px;
+    width: 10px;
+    height: 20px;
+  }
+
+  .Comments {
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background: var(--color-subtitle);
+    }
+  }
+
+  &-CommentsNum {
+    margin-right: 3px;
+
+    &:before {
+      content: "("
+    }
+
+    &:after {
+      content: ")"
+    }
+  }
+}
+
+.More--color-1 {
+  &:before {
+    background: var(--color-1);
+  }
+}
+
+.More--color-2 {
+  &:before {
+    background: var(--color-2);
+  }
+}
+
+.More--color-3 {
+  &:before {
+    background: var(--color-3);
+  }
+}
+
+.More--color-4 {
+  &:before {
+    background: var(--color-4);
+  }
+}

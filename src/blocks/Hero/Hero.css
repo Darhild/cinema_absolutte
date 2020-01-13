@@ -26,6 +26,6 @@
   }
 
   &-TitleFirst {
-    @mixin triangle 30px, var(--color-corner-1);
+    @mixin triangle 30px, var(--color-1);
   }
 }

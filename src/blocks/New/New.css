@@ -1,0 +1,17 @@
+.New {
+  display: flex;
+
+  &-Image {
+    margin-right: 30px;
+  }
+
+  &-Content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3px;
+  }
+
+  &-More {
+    margin-top: auto;
+  }
+}
