@@ -1,0 +1,33 @@
+.Social {
+  display: flex;
+
+  &-Item {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+    background: url('../images/social.png');
+    background-position: 0 5px;
+    background-repeat: no-repeat;
+
+    &:hover {
+      background-color: var(--color-hover);
+    }
+  }
+
+  &-Tm {
+    background-position: 3px;
+  }
+
+  &-Vk {
+    background-position: -44px;
+  }
+
+  &-Tw {
+    background-position: -93px;
+  }
+
+  &-Fb {
+    background-position: -143px;
+  }
+}

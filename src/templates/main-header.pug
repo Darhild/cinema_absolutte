@@ -1,0 +1,21 @@
+.MainHeader
+  .MainHeader-Wrapper.Container
+    a.MainHeader-Logo.Logo(href="/index.html")
+      img(url="images/logo.png")
+    nav.MainHeader-Links
+      a.MainHeader-Link(href="/index.html") Главная
+      a.MainHeader-Link(href="/index.html") Рецензии
+      a.MainHeader-Link(href="/index.html") Интервью
+      a.MainHeader-Link(href="/index.html") Worldwide
+      a.MainHeader-Link(href="/index.html") Сделано в России
+      a.MainHeader-Link(href="/index.html") Подборки
+      a.MainHeader-Link(href="/index.html") Ликбез
+      a.MainHeader-Link(href="/index.html") От редакции
+    block social
+      include ../templates/social.pug
+    .Main-Header-Search.Search
+      input.Search-Input(type="text")
+      button.Search-Btn
+
+
+

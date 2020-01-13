@@ -1,0 +1,58 @@
+
+@define-mixin menuItemAfter $width: 5px, $height: 5px, $right: -15px, $top: 7px, $color: black, $background: transparent {
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        right: $right;
+        top: $top;
+        display: block;
+        width: $width;
+        height: $height;
+        background: $background;
+        border-top: 1px solid $color;
+        border-left: 1px solid $color;
+        transform: rotate(225deg)
+    }
+
+    &_state_active:after {
+        transform: rotate(45deg)
+    }
+}
+
+@define-mixin menuItemBorder $width: 100%, $border-width: 3px, $left: 0, $bottom: 0, $border-color: var(--color-primary) {
+    position: relative;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: $left;
+        bottom: $bottom;
+        display: block;
+        width: $width;
+        border-bottom-width: $border-width;
+        border-bottom-style: solid;
+        border-bottom-color: $border-color;
+    }
+}
+
+@define-mixin container {
+    max-width: $desktop-width;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@define-mixin triangle $width, $color {
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: $width;
+    height: calc($width * 1.5);
+    background: linear-gradient(to top right, transparent 50%, $color 50%);
+  }
+}
+
+

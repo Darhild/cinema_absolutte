@@ -1,0 +1,37 @@
+html {
+
+  --color-layout-body: #24293d;
+  --color-layout-primary: rgba(0, 0, 0, .3);
+  --color-layout-footer: #141722;
+
+  --color-black: #000;
+  --color-white: #fff;
+
+  --color-corner-1: #169afc;
+
+  --color-hover: rgba(0, 0, 0, .8);
+
+  background-color: var(--color-layout-body);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.Container {
+  min-width: $screen-mobile;
+  max-width: $screen-desktop;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -1,0 +1,13 @@
+.MainHeader {
+  position: fixed;
+  right: 0;
+  left: 0;
+  padding: 45px 0 15px;
+  background-color: var(--color-layout-primary);
+  border-bottom: 1px solid var(--color-black);
+
+  &-Wrapper {
+    display: flex;
+    align-items: center;
+  }
+}

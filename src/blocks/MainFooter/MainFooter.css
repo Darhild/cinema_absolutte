@@ -1,0 +1,43 @@
+.MainFooter {
+  padding: 55px 0 80px;
+  background-color: var(--color-layout-footer);
+
+  &-LogoSection {
+    margin-right: 135px;
+  }
+
+  &-Logo {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  &-Links {
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  &-Copyright {
+    font-size: 9px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: var(--color-white);
+  }
+
+  &-Wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &-Link {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-white);
+  }
+}

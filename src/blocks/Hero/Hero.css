@@ -1,0 +1,31 @@
+@import "./../../mixins.css";
+
+.Hero {
+  max-width: $screen-max;
+  margin-right: auto;
+  margin-left: auto;
+
+  &-Content {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    perspective: 1000px;
+  }
+
+  &-Title {
+    padding-bottom: 80px;
+    padding-left: 120px;
+    font-size: 140px;
+    line-height: 125px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--color-white);
+    background: url("../images/cloud.png") no-repeat;
+    background-position: 0 40px;
+    transform: rotateY(-25deg);
+  }
+
+  &-TitleFirst {
+    @mixin triangle 30px, var(--color-corner-1);
+  }
+}

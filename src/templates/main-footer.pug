@@ -1,0 +1,33 @@
+.MainFooter
+  .MainFooter-Wrapper.Container
+    .MainFooter-LogoSection
+      a.MainFooter-Logo(href="/index.html")
+        img(src="images/footer-logo.png")
+      .MainFooter-Copyright (C) absolutte.io | Absolute cinema | Григорий Чтчян
+
+    .MainFooter-Links
+      .MainFooter-Col
+        a.MainFooter-Link(href="/index.html") Главная
+        a.MainFooter-Link(href="/index.html") Рецензии
+        a.MainFooter-Link(href="/index.html") Интервью
+        a.MainFooter-Link(href="/index.html") Worldwide
+
+      .MainFooter-Col
+        a.MainFooter-Link(href="/index.html") Сделано в России
+        a.MainFooter-Link(href="/index.html") Подборки
+        a.MainFooter-Link(href="/index.html") Ликбез
+        a.MainFooter-Link(href="/index.html") От редакции
+
+      .MainFooter-Col
+        a.MainFooter-Link(href="/index.html") Интервью
+        a.MainFooter-Link(href="/index.html") События
+        a.MainFooter-Link(href="/index.html") Стать автором
+        a.MainFooter-Link(href="/index.html") Команда
+
+      .MainFooter-Col
+        block social
+          include ../templates/social.pug
+            +social
+        a.MainFooter-Link(href="mailto:info@climax.ru") info@climax.ru
+        a.MainFooter-Link(href="mailto:info@absolutte.io") info@absolutte.io
+
