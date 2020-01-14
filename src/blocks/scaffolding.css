@@ -42,51 +42,15 @@ img {
   max-width: $screen-desktop;
   margin-right: auto;
   margin-left: auto;
+
+  &--large {
+    max-width: $screen-max;
+  }
 }
 
-.Title {
-  position: relative;
-  display: block;
-  font-weight: 900;
-  text-decoration: none;
-  color: var(--color-white);
-
-  &--underline {
-
-    &:before {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 90px;
-      height: 1px;
-      background: var(--color-text-primary);
-    }
-  }
-
-  &--h2 {
-    font-size: 32px;
-    text-transform: uppercase;
-  }
-
-  &--h2.Title--underline {
-    padding-bottom: 15px;
-
-    &:before {
-      width: 180px;
-    }
-  }
-
-  &--h3 {
-    font-size: 20px;
-  }
-
-  &--h3.Title--underline {
-    padding-bottom: 10px;
-
-    &:before {
-      width: 90px;
-    }
+.Main {
+  section {
+    margin-bottom: 60px;
   }
 }
 

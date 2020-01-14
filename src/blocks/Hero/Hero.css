@@ -1,10 +1,6 @@
 @import "./../../mixins.css";
 
 .Hero {
-  max-width: $screen-max;
-  margin-right: auto;
-  margin-left: auto;
-
   &-Content {
     position: absolute;
     top: 20%;

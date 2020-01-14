@@ -1,4 +1,4 @@
-.MainFooter
+footer.MainFooter
   .MainFooter-Wrapper.Container
     .MainFooter-LogoSection
       a.MainFooter-Logo(href="/index.html")
@@ -26,8 +26,8 @@
 
       .MainFooter-Col
         block social
-          include ../templates/social.pug
-            +social
+          include social.pug
+            +social("Social")
         a.MainFooter-Link(href="mailto:info@climax.ru") info@climax.ru
         a.MainFooter-Link(href="mailto:info@absolutte.io") info@absolutte.io
 

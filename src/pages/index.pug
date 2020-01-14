@@ -4,11 +4,16 @@ block main-header
   include ../templates/main-header.pug
 
 block main
-  block hero
+  main.Main
     include ../templates/hero.pug
 
-  block premiere
     include ../templates/premiere.pug
+
+    include ../templates/dayArticle.pug
+
+    include ../templates/waited.pug
+
+    include ../templates/news.pug
 
 block footer
   include ../templates/main-footer.pug

@@ -1,0 +1,9 @@
+.DayArticle {
+  position: relative;
+
+  &-Content {
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+  }
+}

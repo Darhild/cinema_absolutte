@@ -1,0 +1,21 @@
+.Waited {
+  position: relative;
+
+  &-Content {
+    position: absolute;
+    left: 120px;
+    bottom: 60px;
+  }
+
+  &-Subtitle {
+    margin-bottom: 25px;
+  }
+
+  &-Title {
+    margin-bottom: 45px;
+  }
+
+  &-Text {
+    margin-bottom: 20px;
+  }
+}
