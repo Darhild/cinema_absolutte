@@ -21,6 +21,7 @@
   &--h2 {
     font-size: 32px;
     text-transform: uppercase;
+    text-shadow: 1px 3px 3px var(--color-layout-secondary);
   }
 
   &--h2.Title--underline {

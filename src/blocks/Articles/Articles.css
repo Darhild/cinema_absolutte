@@ -1,0 +1,32 @@
+.Articles {
+  display: flex;
+
+  &-Review {
+    flex-shrink: 0;
+    margin-top: 60px;
+  }
+
+  &-Column {
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &-Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    padding-top: 60px;
+    border-top: 1px solid var(--color-text-primary);
+  }
+
+  &-Article--full {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: var(--color-layout-primary);
+  }
+}

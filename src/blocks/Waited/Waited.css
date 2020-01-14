@@ -9,6 +9,7 @@
 
   &-Subtitle {
     margin-bottom: 25px;
+    color: var(--color-subtitle-2);
   }
 
   &-Title {

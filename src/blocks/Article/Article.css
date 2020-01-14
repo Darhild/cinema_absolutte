@@ -1,0 +1,11 @@
+.Article {
+  &-Title {
+    margin-bottom: 15px;
+  }
+
+  &-Text {
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: var(--color-text-secondary);
+  }
+}

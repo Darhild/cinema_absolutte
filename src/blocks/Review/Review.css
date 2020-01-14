@@ -1,0 +1,44 @@
+.Review {
+  position: relative;
+
+  &-Label {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    display: flex;
+    height: 20px;
+    color: var(--color-text-primary);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  &-Theme {
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 20px;
+
+    &--color-1 {
+      background: var(--color-1);
+    }
+
+    &--color-2 {
+      background: var(--color-2);
+    }
+
+    &--color-3 {
+      background: var(--color-3);
+    }
+
+    &--color-4 {
+      background: var(--color-4);
+    }
+  }
+
+  &-Author {
+    min-width: 185px;
+    padding: 0 10px;
+    font-size: 11px;
+    line-height: 20px;
+    background: var(--color-layout-secondary);
+  }
+}

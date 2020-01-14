@@ -8,6 +8,7 @@ html {
   --color-white: #fff;
 
   --color-subtitle: #c2c2c2;
+  --color-subtitle-2: #dee0e1;
 
   --color-1: #169afc;
   --color-2: #f21440;
@@ -15,6 +16,7 @@ html {
   --color-4: #ff8629;
 
   --color-text-primary: #fff;
+  --color-text-secondary: #505050;
 
   --color-hover: rgba(0, 0, 0, .8);
 
