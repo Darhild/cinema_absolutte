@@ -403,6 +403,36 @@ img {
     background: var(--color-layout-secondary);
   }
 
+.Reviews {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: start;
+          align-items: flex-start;
+}
+
+  .Reviews-Column {
+    margin-right: 30px;
+  }
+
+  .Reviews-Column:last-child {
+      margin-right: 0;
+    }
+
+  .Reviews-Column--grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+  }
+
+  .Reviews-Column--grid .Review {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
 .Social {
   display: -webkit-box;
   display: flex;
@@ -436,6 +466,11 @@ img {
 
   .Social-Fb {
     background-position: -143px;
+  }
+
+.Thumb--offset {
+    position: relative;
+    right: -30px;
   }
 
 .Title {

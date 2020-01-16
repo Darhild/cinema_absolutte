@@ -1,0 +1,6 @@
+.Thumb {
+  &--offset {
+    position: relative;
+    right: -30px;
+  }
+}
